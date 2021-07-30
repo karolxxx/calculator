@@ -8,18 +8,22 @@ This is my first big project. This is calculator app made with Python and Kivy e
 Make sure that python is downloade:
 https://www.python.org/downloads/
 
-When you download remember to check path .
+**When you download remember to check path !**
+
 ![image](https://user-images.githubusercontent.com/76845828/127655831-c795437e-885b-4c34-b406-041181ca722e.png)
+
 
 
 After that open run (windows + r) write cmd.
 
-In command prompt write: 
+**In command prompt write: **
+
 $ pip --version
 
 (If no error you are all good.)
 
-After that write:
+**After that write:**
+
 $ pip install kivy
 
 If no errors you are all set to go !
