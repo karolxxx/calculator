@@ -11,6 +11,7 @@ https://www.python.org/downloads/
 When you download remember to check path .
 ![image](https://user-images.githubusercontent.com/76845828/127655831-c795437e-885b-4c34-b406-041181ca722e.png)
 
+
 After that open run (windows + r) write cmd.
 
 In command prompt write: 
