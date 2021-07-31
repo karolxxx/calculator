@@ -26,7 +26,7 @@ def proces():
 
 
 Config.set('graphics', 'width', '500')
-Config.set('graphics', 'height', '600')
+Config.set('graphics', 'height', '470')
 
 class Thewidget(Widget):
     pass
