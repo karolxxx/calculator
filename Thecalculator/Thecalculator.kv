@@ -1,7 +1,21 @@
 
 Thewidget:
+<Button>
+    font_size: 30
 
 <Thewidget>:
+    Label:
+        font_size: 40
+        text:'Enter a number'
+        pos: 0, 325
+        size: "500dp","150dp"
+        background_color: (128,128,128,0.7)
+        canvas.before:
+            Color:
+                rgba: self.background_color
+            Rectangle:
+                size:self.size
+                pos: self.pos
     Button:
         text: '0'
         size: "125dp", "65dp"
@@ -67,6 +81,7 @@ Thewidget:
         size: "125dp", "65dp"
         pos: 375, 0
         color:'white'
+        background_color:(0,0,255,0.4)
     Button:
         text:'+' 
         size: "125dp", "65dp"

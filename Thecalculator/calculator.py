@@ -6,7 +6,6 @@ from kivy.config  import Config
 
 
 
-
 def proces():
     x = int(input('Enter first number:'))
     function = input('Enter a function(+,*,/,-):')
