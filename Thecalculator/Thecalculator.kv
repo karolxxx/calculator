@@ -2,6 +2,8 @@
 Thewidget:
 <Button>
     font_size: 30
+    color:'white'
+    size: "125dp", "65dp"
 
 <Thewidget>:
     Label:
@@ -18,89 +20,80 @@ Thewidget:
                 pos: self.pos
     Button:
         text: '0'
-        size: "125dp", "65dp"
         pos:  125, 0
-        color:'white'
+        # on_press: root.Button_press(0)
+        
     Button:
         text:'2' 
-        size: "125dp", "65dp"
         pos: 125, 65
-        color: 'white'
+       
     Button:
         text:'5' 
-        size: "125dp", "65dp"
         pos: 125, 130
-        color: 'white'
+       
     Button:
         text:'8' 
-        size: "125dp", "65dp"
         pos: 125, 195
-        color: 'white'
+        
     Button:
-        text: '+/-'
-        size: "125dp", "65dp"
+        text: '±'
         pos:  0, 0
-        color:'white'
+       
     Button:
         text:'1' 
-        size: "125dp", "65dp"
         pos: 0, 65
-        color: 'white'         
+             
     Button:
         text:'4' 
-        size: "125dp", "65dp"
         pos: 0, 130
-        color: 'white'
+       
     Button:
         text:'7' 
-        size: "125dp", "65dp"
         pos: 0, 195
-        color: 'white'
+       
     Button:
         text: '.'
-        size: "125dp", "65dp"
         pos:  250, 0
-        color:'white'
+        
     Button:
         text:'3' 
-        size: "125dp", "65dp"
         pos: 250, 65
-        color: 'white'          
+              
     Button:
         text:'6' 
-        size: "125dp", "65dp"
         pos: 250, 130
-        color: 'white'
+        
     Button:
         text:'9' 
-        size: "125dp", "65dp"
         pos: 250, 195
-        color: 'white'
+       
     Button:
         text: '='
-        size: "125dp", "65dp"
         pos: 375, 0
-        color:'white'
         background_color:(0,0,255,0.4)
     Button:
         text:'+' 
-        size: "125dp", "65dp"
         pos: 375, 65
-        color: 'white'
           
     Button:
-        text:'-' 
-        size: "125dp", "65dp"
+        text:'−' 
         pos: 375, 130
-        color: 'white'
 
     Button:
-        text:'x' 
-        size: "125dp", "65dp"
+        text:'×' 
         pos: 375, 195
-        color: 'white'
     Button:
-        text:':' 
-        size: "125dp", "65dp"
+        text:'÷' 
         pos: 375, 260
-        color: 'white'
+    Button:
+        text:'C'
+        pos:250, 260
+        background_color: (255, 0, 0,0.4)
+    Button:
+        text:'CE'
+        pos: 125, 260,
+        background_color: (255, 0, 0,0.4)
+    Button:
+        text:'x^2'
+        pos: 0, 260,
+        
